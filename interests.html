@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мої інтереси</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav id="side-menu" class="side-menu closed">
+    <button class="menu-close"
+      onclick="document.getElementById('side-menu').classList.add('closed')">
+      ×
+    </button>
+
+    <h2>Меню</h2>
+
+    <a href="index.html" onclick="document.getElementById('side-menu').classList.add('closed')">🛍️ Товари</a>
+    <a href="about.html" onclick="document.getElementById('side-menu').classList.add('closed')">Про мене</a>
+    <a href="interests.html" onclick="document.getElementById('side-menu').classList.add('closed')">Інтереси</a>
+    <a href="contact.html" onclick="document.getElementById('side-menu').classList.add('closed')">Зв’язок</a>
+  </nav>
+
+  <button class="menu-open"
+    onclick="document.getElementById('side-menu').classList.remove('closed')">
+    ☰ Меню
+  </button>
+
+  <header>
+    <h1>Мої інтереси</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Що мені подобається</h2>
+
+      <ul>
+        <li>🎮 Ігри</li>
+        <li>🎵 Музика</li>
+        <li>💻 Програмування</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Vladik</p>
+  </footer>
+</body>
+</html>
